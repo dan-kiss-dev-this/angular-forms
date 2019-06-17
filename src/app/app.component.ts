@@ -46,6 +46,7 @@ export class AppComponent {
     console.log(this.signupForm);
     this.submitted = true;
     this.user.username = this.signupForm.value.userData.username;
+    this.signupForm.reset();
   }
 
 }
